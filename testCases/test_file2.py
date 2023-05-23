@@ -5,10 +5,10 @@ class Test_002:
 
     @pytest.mark.group1
     def test_sum_004(self):
-        a = 4
+        a = 3
         b = 4
         sum = a + b
-        if sum == 8:
+        if sum == 7:
             assert True
         else:
             assert False
